@@ -3,12 +3,12 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackOnBuild>true</PackOnBuild>
-    <PackageId>Luna</PackageId>
+    <PackageId>Celes</PackageId>
     <PackageVersion>0.1.0</PackageVersion>
     <Authors>Elias Becerra &lt;e1@eliashbf.com&gt;</Authors>
     <Description>Wrapper for Dapper connection to SqlServer, MySQL &amp; PostgreSQL</Description>
     <PackageLicenseUrl>https://www.mit.edu/~amini/LICENSE.md</PackageLicenseUrl>
-    <PackageProjectUrl>https://github.com/EliasBF/Luna</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/EliasBF/Celes</PackageProjectUrl>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">

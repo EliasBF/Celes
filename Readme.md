@@ -1,4 +1,4 @@
-# Luna
+# Celes
 
 Wrapper for Dapper connection to SqlServer, MySQL & PostgreSQL
 
@@ -7,7 +7,7 @@ Wrapper for Dapper connection to SqlServer, MySQL & PostgreSQL
 ### Import package
 
 ```csharp
-using Ehbf.Luna;
+using Cele;
 ```
 
 ### Create database connection
@@ -27,6 +27,7 @@ DatabaseProvider provider = new DatabaseProvider(new ConnectionParameters
 
 ```csharp
 provider.ExecCommand("DELETE FROM Test");
+
 provider.ExecCommands("DELETE FROM Test WHERE Id = @Id", new List<dynamic>
 {
   new { Id = 1 },
@@ -41,5 +42,6 @@ MyClass myObject = provider.QueryOne<MyClass>("SELECT Id, Name FROM Test WHERE I
 {
   Id = 1
 });
+
 List<MyClass> myObjects = provider.QueryAll<MyClass>("SELECT Id, Name FROM Test");
 ```

@@ -1,4 +1,4 @@
-﻿namespace Luna
+namespace Celes
 {
     public enum DatabaseDialect
     {

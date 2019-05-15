@@ -7,7 +7,7 @@ using MySql.Data.MySqlClient;
 using Npgsql;
 using Dapper;
 
-namespace Luna
+namespace Celes
 {
     public class ConnectionParametersException : Exception
     {

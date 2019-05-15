@@ -13,7 +13,7 @@ namespace Celes
             switch (Dialect)
             {
                 case DatabaseDialect.SqlServer:
-                    return $"Host={Server};" +
+                    return $"Server={Server};" +
                         $"Database={Database};" +
                         $"User ID={User};" +
                         $"Password={Password};";
@@ -23,7 +23,7 @@ namespace Celes
                         $"Uid={User};" +
                         $"Pwd={Password};";
                 case DatabaseDialect.Postgres:
-                    return $"Server={Server};" +
+                    return $"Host={Server};" +
                         $"Database={Database};" +
                         $"User ID={User};" +
                         $"Password={Password};";

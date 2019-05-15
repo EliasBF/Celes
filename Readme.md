@@ -7,7 +7,7 @@ Wrapper for Dapper connection to SqlServer, MySQL & PostgreSQL
 ### Import package
 
 ```csharp
-using Cele;
+using Celes;
 ```
 
 ### Create database connection

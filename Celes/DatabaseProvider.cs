@@ -32,7 +32,7 @@ namespace Celes
                     "Invalid database connection params");
             }
 
-            if (Connection.State == ConnectionState.Open)
+            if (Connection != null && Connection?.State == ConnectionState.Open)
             {
                 Connection.Dispose();
             }

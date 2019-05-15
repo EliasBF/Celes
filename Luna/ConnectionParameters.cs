@@ -1,4 +1,4 @@
-﻿namespace Ehbf.Luna
+﻿namespace Luna
 {
     public class ConnectionParameters
     {

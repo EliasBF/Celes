@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Linq;
 using System.Collections.Generic;
 using System.Data;
@@ -7,7 +7,7 @@ using MySql.Data.MySqlClient;
 using Npgsql;
 using Dapper;
 
-namespace Ehbf.Luna
+namespace Luna
 {
     public class ConnectionParametersException : Exception
     {

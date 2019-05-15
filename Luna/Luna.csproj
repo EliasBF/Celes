@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageId>Luna</PackageId>
+    <PackageVersion>0.1.0</PackageVersion>
+    <Authors>Elias Becerra &lt;e1@eliashbf.com&gt;</Authors>
+    <Description>Wrapper for Dapper connection to SqlServer, MySQL &amp; PostgreSQL</Description>
+    <PackageLicenseUrl>https://www.mit.edu/~amini/LICENSE.md</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/EliasBF/Luna</PackageProjectUrl>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType></DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Npgsql" Version="4.0.6" />
+    <PackageReference Include="MySql.Data" Version="8.0.16" />
+    <PackageReference Include="Dapper" Version="1.60.6" />
+    <PackageReference Include="NuGet.Build.Packaging" Version="0.2.0" />
+  </ItemGroup>
+</Project>

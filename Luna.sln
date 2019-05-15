@@ -1,7 +1,7 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{5DD5E4FA-CB73-4610-85AB-557B54E96AA9}") = "Ehbf.Luna", "Ehbf.Luna\Ehbf.Luna.nuproj", "{811A6838-983A-4D63-B160-DF1A0303355C}"
+Project("{5DD5E4FA-CB73-4610-85AB-557B54E96AA9}") = "Luna", "Luna\Luna.csproj", "{811A6838-983A-4D63-B160-DF1A0303355C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
